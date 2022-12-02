@@ -1,0 +1,45 @@
+Put "A" into LetterA
+Put "B" into LetterB
+Put "C" into LetterC
+Put "X" into LetterX
+Put "Y" into LetterY
+Put "Z" into LetterZ
+
+LINESCOUNT is 2500
+COUNT is 0
+SUM is 0
+
+While COUNT ain't LINESCOUNT,
+Listen to INPUT
+Rock the results
+Let OPPONENT be INPUT at 0
+Let MYSELF be INPUT at 2
+If OPPONENT is LetterA
+Let OPPONENT be 1
+
+If MYSELF is LetterX
+Let MYSELF be 1
+
+If OPPONENT is LetterB
+Let OPPONENT be 2
+
+If MYSELF is LetterY
+Let MYSELF be 2
+
+If OPPONENT is LetterC
+Let OPPONENT be 3
+
+If MYSELF is LetterZ
+Let MYSELF be 3
+
+Let DIFF be MYSELF - OPPONENT 
+If DIFF is 1 or DIFF is -2
+Let sum be with 6
+
+If DIFF is 0
+Let sum be with 3
+
+Build COUNT up
+Let sum be with MYSELF
+
+Shout sum
