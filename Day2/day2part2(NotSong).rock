@@ -1,0 +1,48 @@
+LINESCOUNT is 2500
+COUNT is 0
+SUM is 0
+
+While COUNT ain't LINESCOUNT,
+Listen to INPUT
+Let OPPONENT be INPUT at 0
+Let RESULT be INPUT at 2
+Let MYSELF be 0
+If RESULT is "Z" (DO WIN)
+Let sum be with 6
+If OPPONENT is "A"
+Let MYSELF be 2
+
+If OPPONENT is "B"
+Let MYSELF be 3
+
+If OPPONENT is "C"
+Let MYSELF be 1
+
+
+If RESULT is "Y" (DO DRAW)
+Let sum be with 3
+If OPPONENT is "A"
+Let MYSELF be 1
+
+If OPPONENT is "B"
+Let MYSELF be 2
+
+If OPPONENT is "C"
+Let MYSELF be 3
+
+
+If RESULT is "X" (DO LOSE)
+If OPPONENT is "A"
+Let MYSELF be 3
+
+If OPPONENT is "B"
+Let MYSELF be 1
+
+If OPPONENT is "C"
+Let MYSELF be 2
+
+
+Build COUNT up
+Let sum be with MYSELF
+
+Shout sum
