@@ -1,4 +1,3 @@
 # AdventOfCode2022_RockstarLang
-
-You can try this code here
+Try Day 1 & 2 code here:
 https://codewithrockstar.com/online 
